@@ -1,5 +1,7 @@
-# Object file
-*.o
+# Mengabaikan file konfigurasi atau kunci rahasia
+.env
+config.js
 
-# Ada Library Information
-*.ali
+# Mengabaikan folder modul
+node_modules/
+
