@@ -1,7 +1,10 @@
-# Mengabaikan file konfigurasi atau kunci rahasia
+# Melindungi file konfigurasi dan API Key
 .env
 config.js
 
-# Mengabaikan folder modul
-node_modules/
+# Melindungi data akun dan catatan penting
+credentials.json
+secrets.json
 
+# Modul besar
+node_modules/
